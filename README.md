@@ -12,8 +12,8 @@ You can read more about the game on Wikipedia [here:](https://en.wikipedia.org/w
 Here are two example GIFs outputted by this program:
 
  <p float="left">
-  <img src="/two_gliders.gif" width="100" />
-  <img src="/acorn.gif" width="100" /> 
+  <img src="/two_gliders.gif" width="350" />
+  <img src="/acorn.gif" width="350" /> 
 </p>
 
 
