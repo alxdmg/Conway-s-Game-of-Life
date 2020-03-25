@@ -12,6 +12,6 @@ You can read more about the game on Wikipedia [here:](https://en.wikipedia.org/w
 Here are two example GIFs generated using this program:
 
 <p align="center">
-<img src="https://github.com/alxdmg/Conway-s-Game-of-Life/blob/master/two_gliders.gif" width="400" height="300">
-<img src="https://github.com/alxdmg/Conway-s-Game-of-Life/blob/master/acorn.gif" width="400" height="300">
+<img src="https://github.com/alxdmg/Conway-s-Game-of-Life/blob/master/two_gliders.gif" width="450" height="300">
+<img src="https://github.com/alxdmg/Conway-s-Game-of-Life/blob/master/acorn.gif" width="450" height="300">
 </p>
