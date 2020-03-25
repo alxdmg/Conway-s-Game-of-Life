@@ -10,11 +10,11 @@ The game requires only the initial set up of the board, from there on the cells 
 You can read more about the game on Wikipedia [here:](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 Here are two example GIFs outputted by this program:
-<p float="left">
-  < ![](two_gliders.gif) /> 
-  < ![](acorn.gif) /> 
+
+ <p float="left">
+  <img src="/two_gliders.gif" width="100" />
+  <img src="/acorn.gif" width="100" /> 
 </p>
- 
 
 
 
