@@ -13,6 +13,5 @@ Here are two example GIFs generated using this program:
 <p float="left">
   <img src="/two_gliders.gif" width="450" />
   <img src="/acorn.gif" width="450 /> 
-</p>
-
-
+</p>           
+ Check here for doc/download <!-- .](https://imagemagick.org/) -->
