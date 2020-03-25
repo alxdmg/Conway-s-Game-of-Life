@@ -11,4 +11,4 @@ You can read more about the game on Wikipedia [here:](https://en.wikipedia.org/w
 
 Here are two example GIFs generated using this program:
 
-![](two_gliders.gif) ![](acorn.gif)
+![](two_gliders.gif | width=450) ![](acorn.gif | width=450)
