@@ -1,34 +1,26 @@
-
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from GameOfLife import GameOfLife
+from GameOfLife_parse import GameOfLife
+# from GameOfLife_dense import GameOfLife
 
 
-# set up game
-game = GameOfLife(32, 32)
+game = GameOfLife(130, 150)
+print("available figures:")
+print(game.list_elems())
+game.new_elem(figure="acorn", top_left_x=70, top_left_y=100)
 
-# Acorn Oscillator
-game.new_elem(figure="acorn", top_left_x=12, top_left_y=14)
+NumGen = 500  # Number of generations of the game
 
-# # Two gliders block
-# game.new_elem(figure="glider", top_left_x=3, top_left_y=3)
-# game.new_elem(figure="glider", top_left_x=22, top_left_y=22, x_dir=-1, y_dir=-1)
-
-m = game.Board.astype(int)
-
-
-def update(i):
-    m = 255 * game.next_gen().astype(int)
-    matrice.set_array(m)
-
-fig, ax = plt.subplots()
+fig = plt.figure(dpi=150)
 plt.axis('off')
-ax.set_title("50 generations of Acorn")
-matrice = ax.matshow(m)
+plt.title(f"Acorn seed evolution")
+ims = []
+for i in range(NumGen):
+    im = plt.imshow(255 * game.next_gen(), animated=True)
+    ims.append([im])
 
-anim = animation.FuncAnimation(fig, update, frames=50, interval=100, blit=False)
+ani = animation.ArtistAnimation(fig, ims, interval=30, blit=True)
+# ani.save('Acorn_500gen_150dpi.gif', dpi=150, writer='imagemagick')
+# ani.save('dynamic_images.mp4')
 
-
-# Comment/Uncomment either line to save or show the GIF
-# anim.save('acorn.gif', dpi=80, writer='imagemagick')
 plt.show()
