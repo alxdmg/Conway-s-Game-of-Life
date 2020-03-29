@@ -15,3 +15,7 @@ Here are two example GIFs generated using this program:
 <img src="https://github.com/alxdmg/Conway-s-Game-of-Life/blob/master/two_gliders.gif" width="450" height="300">
 <img src="https://github.com/alxdmg/Conway-s-Game-of-Life/blob/master/acorn.gif" width="450" height="300">
 </p>
+
+<p align="center">
+<img src="https://github.com/alxdmg/Conway-s-Game-of-Life/blob/master/gifs/gosper_glider_210gen_150dpi_optimized.gif">
+</p>
